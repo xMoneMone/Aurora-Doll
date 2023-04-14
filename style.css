@@ -44,3 +44,22 @@ body > div {
 .guide {
     height: 70vh;
 }
+
+.wardrobe_frame_div {
+    margin-left: 2vw;
+    position: relative;
+}
+
+.wardrobe_div {
+    position: absolute;
+    left: 1%;
+    background-color: white;
+    height: 70vh;
+    width: 86vh;
+    border-radius: 3em;
+}
+
+.wardrobe_frame {
+    height: 88vh;
+    z-index: 2;
+}
