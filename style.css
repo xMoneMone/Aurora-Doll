@@ -90,6 +90,7 @@ button {
 
 .clothes_buttons > button > img {
     height: 6vh;
+    padding-top: 1vh;
 }
 
 .selected_button {
