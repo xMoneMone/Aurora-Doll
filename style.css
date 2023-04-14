@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(50, 30, 34);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+body > div {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.doll_frame_div {
+    position: relative;
+    display: flex;
+    justify-content: center ;
+}
+
+.doll_frame {
+    height: 88vh;
+    z-index: 2;
+}
+
+.doll_div {
+    position: absolute;
+    background-color: white;
+    height: min-content;
+    width: min-content;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 2em;
+}
+
+.doll {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 70vh;
+}
+
+.guide {
+    height: 70vh;
+}
+
+.wardrobe_frame_div {
+    margin-left: 2vw;
+    position: relative;
+}
+
+.wardrobe_div {
+    position: absolute;
+    left: 1%;
+    background-color: white;
+    height: 70vh;
+    width: 86vh;
+    border-radius: 3em;
+}
+
+.wardrobe_frame {
+    height: 88vh;
+    z-index: 2;
+}
