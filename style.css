@@ -75,8 +75,12 @@ body > div {
     padding: 0;
 }
 
-button {
+li {
     z-index: 3;
+    list-style: none;
+}
+
+button {
     background: none;
 	color: inherit;
 	border: none;
@@ -88,7 +92,7 @@ button {
     margin-left: 0.5vh;
 }
 
-.clothes_buttons > button > img {
+.clothes_buttons > li > button > img {
     height: 6vh;
     padding-top: 1vh;
 }
