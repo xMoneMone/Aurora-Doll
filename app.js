@@ -7,7 +7,7 @@ let max_amount_items = {
     "accessories":3,
     "dresses":2,
     "fringes":2,
-    "hair":2,
+    "hair":11,
     "jackets":2,
     "pants":2,
     "shirts":2,
@@ -45,7 +45,6 @@ for (let button of buttons){
 
             div.appendChild(sylhouette)
             div.appendChild(item)
-
             container.appendChild(div)
         }
 
