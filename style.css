@@ -97,7 +97,7 @@ button {
 }
 
 .clothes_buttons > li > button > img {
-    height: 6vh;
+    height: 5vh;
     padding-top: 1vh;
 }
 
@@ -135,4 +135,10 @@ button {
     position: absolute;
     top: 0;
     left: 0;
+}
+
+@media (max-width: 900px){
+    body {
+        flex-direction: column;
+    }
 }
