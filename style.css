@@ -1,3 +1,7 @@
+:root {
+    --wardrobe-bg-color: rgb(237, 215, 209);
+  }
+
 body {
     background-color: rgb(50, 30, 34);
     display: flex;
@@ -67,7 +71,7 @@ body > div {
 
 .clothes_buttons {
     display: flex;
-    background-color: rgb(173, 155, 159);
+    background-color: var(--wardrobe-bg-color);
     height:8vh;
     margin-top: 2vh;
     align-items: end;
@@ -101,4 +105,34 @@ button {
     background-color: white; 
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
-}  
+}
+
+.item_card {
+    background-color: var(--wardrobe-bg-color);
+    position: relative;
+    border-radius: 0.5em;
+    cursor: pointer;
+    z-index: 3;
+    border: 2px solid rgb(185, 166, 166);
+    margin: 1vh;
+    height: 24vh;
+}
+
+.cards {
+    padding: 1% 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 53vh;
+    overflow-y: scroll;
+}
+
+.item_card > img {
+    height: 100%;
+}
+
+.item {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
