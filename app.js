@@ -6,7 +6,7 @@ let items = ""
 let max_amount_items = {
     "accessories":3,
     "dresses":2,
-    "fringes":2,
+    "fringes":3,
     "hair":11,
     "hair_accessories": 0,
     "bags": 0,
