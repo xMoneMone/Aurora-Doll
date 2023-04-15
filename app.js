@@ -5,7 +5,7 @@ let targeted_doll_item = ""
 let items = ""
 let max_amount_items = {
     "accessories":11,
-    "dresses":13,
+    "dresses":14,
     "fringes":3,
     "hair":11,
     "hair_accessories": 0,
@@ -15,7 +15,7 @@ let max_amount_items = {
     "shirts":2,
     "shoes":8,
     "socks":10,
-    "undershirts":2
+    "undershirts":6
 }
 
 for (let button of buttons){
