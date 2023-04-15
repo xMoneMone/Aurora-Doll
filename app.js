@@ -14,7 +14,7 @@ let max_amount_items = {
     "pants":2,
     "shirts":2,
     "shoes":2,
-    "socks":2,
+    "socks":10,
     "undershirts":2
 }
 
