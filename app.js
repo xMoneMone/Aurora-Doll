@@ -50,6 +50,16 @@ for (let button of buttons){
         }
 
         items = document.querySelectorAll('.item_card')
+
+        for (let item of items){
+            item.addEventListener("click", () => {
+                if (item.id == 'nothing'){return}
+        
+                item_image = item.childNodes[1]
+                targeted_doll_item.src = item_image.src
+                console.log("yes")
+            })
+        }
     })
 
 }
@@ -60,11 +70,3 @@ document.getElementById("nothing").addEventListener("click", () => {
     targeted_doll_item.src = ""
 })
 
-for (let item of items){
-    item.addEventListener("click", () => {
-        if (item.id == 'nothing'){return}
-
-        item_image = item.childNodes[1]
-        targeted_doll_item.src = item_image.src
-    })
-}
