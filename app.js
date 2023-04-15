@@ -8,7 +8,7 @@ let max_amount_items = {
     "dresses":14,
     "fringes":3,
     "hair":11,
-    "hair_accessories": 0,
+    "hair-accessories": 13,
     "bags": 0,
     "jackets":5,
     "pants":2,
