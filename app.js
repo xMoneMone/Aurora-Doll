@@ -11,11 +11,11 @@ let max_amount_items = {
     "hair-accessories": 13,
     "bags": 3,
     "jackets":5,
-    "pants":11,
-    "shirts":2,
+    "pants":12,
+    "shirts":28,
     "shoes":8,
     "socks":10,
-    "undershirts":6
+    "undershirts":7
 }
 
 for (let button of buttons){
