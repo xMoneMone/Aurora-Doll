@@ -5,12 +5,12 @@ let targeted_doll_item = ""
 let items = ""
 let max_amount_items = {
     "accessories":3,
-    "dresses":2,
+    "dresses":13,
     "fringes":3,
     "hair":11,
     "hair_accessories": 0,
     "bags": 0,
-    "jackets":4,
+    "jackets":5,
     "pants":2,
     "shirts":2,
     "shoes":2,
