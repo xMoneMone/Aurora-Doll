@@ -2,6 +2,7 @@ let buttons = document.querySelectorAll("button")
 
 let selected = ""
 let targeted_doll_item = ""
+let items = ""
 let max_amount_items = {
     "accessories":3,
     "dresses":2,
@@ -47,6 +48,8 @@ for (let button of buttons){
 
             container.appendChild(div)
         }
+
+        items = document.querySelectorAll('.item_card')
     })
 
 }
@@ -56,3 +59,12 @@ document.getElementById("fringes_button").click()
 document.getElementById("nothing").addEventListener("click", () => {
     targeted_doll_item.src = ""
 })
+
+for (let item of items){
+    item.addEventListener("click", () => {
+        if (item.id == 'nothing'){return}
+
+        item_image = item.childNodes[1]
+        targeted_doll_item.src = item_image.src
+    })
+}
