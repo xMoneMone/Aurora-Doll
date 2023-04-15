@@ -137,8 +137,36 @@ button {
     left: 0;
 }
 
-@media (max-width: 900px){
-    body {
-        flex-direction: column;
-    }
+@media only screen and (max-width: 900px) {
+body {
+    flex-direction: column;
+    align-content: center;
+    height: auto;
+    margin: 0;
+}
+
+.wardrobe_frame {
+    opacity: 0;
+}
+
+.wardrobe_div {
+    overflow: hidden;
+    padding-bottom: 3vh;
+}
+
+.clothes_buttons {
+    flex-wrap: wrap;
+    height: min-content;
+}
+
+.selected_button {
+    background-color: white; 
+    border-radius: 1em;
+}
+
+.wardrobe_div {
+    height: 70vh;
+    width: 96vw;
+    border-radius: 2em;
+}
 }
