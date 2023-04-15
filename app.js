@@ -57,7 +57,6 @@ for (let button of buttons){
         
                 item_image = item.childNodes[1]
                 targeted_doll_item.src = item_image.src
-                console.log("yes")
             })
         }
     })
