@@ -4,16 +4,18 @@ let selected = ""
 let targeted_doll_item = ""
 let items = ""
 let max_amount_items = {
-    "accessories":3,
-    "dresses":2,
-    "fringes":2,
-    "hair":2,
-    "jackets":2,
-    "pants":2,
-    "shirts":2,
-    "shoes":2,
-    "socks":2,
-    "undershirts":2
+    "accessories":11,
+    "dresses":14,
+    "fringes":3,
+    "hair":11,
+    "hair-accessories": 13,
+    "bags": 3,
+    "jackets":5,
+    "pants":12,
+    "shirts":28,
+    "shoes":8,
+    "socks":10,
+    "undershirts":7
 }
 
 for (let button of buttons){
@@ -45,7 +47,6 @@ for (let button of buttons){
 
             div.appendChild(sylhouette)
             div.appendChild(item)
-
             container.appendChild(div)
         }
 
