@@ -3,6 +3,7 @@ let buttons = document.querySelectorAll("button")
 let selected = ""
 let targeted_doll_item = ""
 let items = ""
+
 let max_amount_items = {
     "accessories":11,
     "dresses":15,
